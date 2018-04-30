@@ -1,0 +1,4 @@
+ts-node gunbroker_relister.ts --help
+ts-node gunbroker_relister.ts update
+ts-node gunbroker_relister.ts relist
+ts-node gunbroker_relister.ts createNew
