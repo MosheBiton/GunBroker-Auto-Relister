@@ -5,7 +5,8 @@ How to run?
 
 Make sure you have node installed
 
-1. run npm i
-2. run ts-node gunbroker_relister.ts update
-3. update the output csv
-4. run ts-node gunbroker_relister.ts relist
+1. Run "npm i"
+2. Put your credentials inside creds.ts file
+3. Run "ts-node gunbroker_relister.ts update"
+4. Update the csv according to your preference
+5. Run "ts-node gunbroker_relister.ts relist"
