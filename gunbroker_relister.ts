@@ -256,7 +256,7 @@ async function handleRelistPage(listingPage: Page, listingElement: ListingInfo) 
     document.querySelector(COLORED_TITLE_SELECTOR).checked = (listingElement.coloredTitle);
     document.querySelector(COLORED_TITLE_COLOR_SELECTOR).value = listingElement.coloredTitleColor;
     document.querySelector(VIEW_COUTER_SELECTOR).checked = (listingElement.viewCounter);
-    document.querySelector(THUMBNAIL_IMAGE_SELECTOR).checked = (listingElement.thumbnailImage);
+    // document.querySelector(THUMBNAIL_IMAGE_SELECTOR).checked = (listingElement.thumbnailImage); // Removed - 2018
 
     if (listingElement.allow_Subtitle) {
       document.querySelector(SUBTITLE_TXT_SELECTOR).value = listingElement.subtitle;
