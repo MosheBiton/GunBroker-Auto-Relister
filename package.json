@@ -1,12 +1,12 @@
 {
-  "name": "thal",
+  "name": "gunbroker_fixed_price_relister",
   "version": "1.0.0",
-  "description": "",
+  "description": "Relist your GunBroker fixed priced listings with this scraper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Moshe Biton",
   "license": "ISC",
   "dependencies": {
     "@types/es6-promise": "^3.3.0",
