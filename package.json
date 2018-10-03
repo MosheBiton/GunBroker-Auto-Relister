@@ -9,18 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/babyparse": "0.0.30",
-    "@types/csv-parse": "^1.1.11",
     "@types/es6-promise": "^3.3.0",
     "@types/papaparse": "^4.1.33",
-    "csv": "^0.3.7",
-    "csv-parser": "^1.12.0",
-    "csv-string": "^3.1.2",
-    "fast-csv": "^2.4.1",
+    "https-proxy-agent": "^2.2.1",
     "papaparse": "^4.3.7",
     "puppeteer": "^1.1.1",
-    "ts-node": "^5.0.0",
-    "yargs": "^11.0.0"
+    "ts-node": "^5.0.0"
   },
   "devDependencies": {
     "@types/puppeteer": "^1.0.0",
